@@ -14,9 +14,26 @@
   
   <properties>
 	<!-- versions -->
-	<sonar.host.url>http://localhost:9000/</sonar.host.url>
+	<sonar.host.url>http://13.232.92.116:9000/</sonar.host.url>
+	  <username>admin</username>
+	  <password>bhanu@217</password>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://35.154.247.106:9999/nexus/repository/walmart-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://35.154.247.106:9999/nexus/repository/walmart-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   
 </project>
